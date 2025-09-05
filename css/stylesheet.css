@@ -1,0 +1,47 @@
+/* The following is the CSS for the Celebrity DUI band website. It is designed
+ * by Vim with input from Morrigan.
+ */
+
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background-image: url(../img/background-tile.jpg);
+    background-repeat: repeat;
+    font-family: serif;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.first-header-row {
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    gap: 15px;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.band-mugshots-row {
+    align-items: center;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+}
