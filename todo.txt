@@ -1,0 +1,4 @@
+(A) 2025-09-05 Edit camera guy and cop car images to right size
+(B) 2025-09-05 Fill out rest of basic page layout
+(C) 2025-09-05 Figure out how to make it worse
+(D) 2025-09-05 Add links to somewhere (?) 
