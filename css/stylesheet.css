@@ -1,71 +1,72 @@
-/* The following is the CSS for the Celebrity DUI band website. It is designed
- * by Vim with input from Momo.
+/* Hey there, if you're reading this and want to look at the code more in-depth, I have it all
+ * hosted on my GitHub at https://github.com/vimlena/celebrityduis so feel free to check it out
+ * there! Thanks for looking at the source code btw, I'm glad you took the time to look into it.
+ * - Vim <3
  */
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  background-image: url(../img/background-tile.jpg);
-  background-repeat: repeat;
-  font-family: "Times New Roman", Times, serif;
-  margin: 0 auto;
+    background-image: url(../img/background-tile.jpg);
+    background-repeat: repeat;
+    font-family: "Times New Roman", Times, serif;
+    margin: 0 auto;
 }
 
 .homepage-links {
-  font-size: 36px;
+    font-size: 36px;
 }
 
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 header {
-  align-items: center;
-  display: flex;
-  flex: 1 1 auto;
-  flex-direction: column;
-  justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .first-header-row {
-  align-items: center;
-  display: flex;
-  flex: 1 1 auto;
-  gap: 15px;
-  padding: 20px 15px 0 15px;
+    align-items: center;
+    display: flex;
+    flex: 1 1 auto;
+    gap: 15px;
+    padding: 20px 15px 0 15px;
 }
 
 .second-header-row {
-  padding: 0 15px 20px 15px;
+    padding: 0 15px 20px 15px;
 }
 
 main {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .band-mugshots-row {
-  align-items: center;
-  display: flex;
-  flex: 1 1 auto;
-  gap: 10px;
-  justify-content: center;
-  padding: 0 15px 20px 15px;
+    align-items: center;
+    display: flex;
+    flex: 1 1 auto;
+    gap: 10px;
+    justify-content: center;
+    padding: 0 15px 20px 15px;
 }
 
 .duis-row,
 .mp3s-row {
-  align-items: center;
-  display: flex;
-  gap: 15px;
-  padding: 0 15px 20px 15px;
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    padding: 0 15px 20px 15px;
 }
 
 .rainbow-heart {
-  display: inline;
+    display: inline;
 }
-
