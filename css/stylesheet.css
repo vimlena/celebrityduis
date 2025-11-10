@@ -15,7 +15,8 @@ body {
     margin: 0 auto;
 }
 
-.homepage-links {
+.homepage-links,
+.mp3-list-item {
     font-size: 36px;
 }
 
