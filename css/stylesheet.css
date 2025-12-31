@@ -13,6 +13,7 @@ body {
     background-repeat: repeat;
     font-family: "Times New Roman", Times, serif;
     margin: 0 auto;
+    text-align: left;
 }
 
 .homepage-links,
