@@ -11,7 +11,7 @@
 body {
     background-image: url(../img/background-tile.jpg);
     background-repeat: repeat;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Inconsolata LGC", "Consolas", "Coutier New", "Courier", monospace;
     margin: 0 auto;
     text-align: left;
 }
@@ -74,4 +74,38 @@ main {
 
 .rainbow-heart {
     display: inline;
+}
+
+/* Fonts */
+
+@font-face {
+    font-display: swap;
+    font-family: "Inconsolata LGC";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Inconsolata-LGC.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Inconsolata LGC";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/Inconsolata-LGC-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Inconsolata LGC";
+    font-style: italic;
+    font-weight: 400;
+    src: url("../fonts/Inconsolata-LGC-Italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Inconsolata LGC";
+    font-style: italic;
+    font-weight: 700;
+    src: url("../fonts/Inconsolata-LGC-BoldItalic.woff2") format("woff2");
 }
