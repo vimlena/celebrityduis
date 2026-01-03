@@ -17,7 +17,8 @@ body {
 }
 
 .homepage-links,
-.mp3-list-item {
+.mp3-list-item,
+.huge-text {
     font-size: 36px;
 }
 
